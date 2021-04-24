@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+
+	font-family: Poppins;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	/*background-color: salmon;*/
+	padding: 10px 20px;
+
+	display: flex;
+}
+
+.navbar ul {
+	list-style: none;
+	vertical-align: middle;
+}
+
+.navbar ul li .header {
+	font-size: 24px;
+	color: salmon;
+}
+
+.navbar .right {
+	margin-left: auto;
+
+	padding: 10px 0;
+}
+
+.navbar ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.navbar ul li a {
+	color: black;
+	font-weight: bold;
+}
+
+.navbar .right a:hover {
+	color: salmon;
+}
+
+.home {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.home .text {
+	padding: 100px;
+}
+
+.home .text .top {
+	font-size: 32px;
+	padding-left: 20px;
+}
+
+.home .text .center {
+	font-size: 24px;
+	color: salmon;
+}
+
+.home .text .bottom {
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+.home .image {
+	background-image: url(https://yt3.ggpht.com/kkk-ID85rQTBruR-cpe5mUbvUo34VHj58ITwmOBORdoGGVdOJ_naxarrsrtDGAt6uRpzhnFH5P9UoA=s640-nd);
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+	background-position: 150px 0;
+	width: 50%;
+	height: 500px;
+}
